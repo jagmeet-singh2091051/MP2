@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/login_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="50sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email id"
+        android:inputType="textEmailAddress"
+
+
+        />
+
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+
+
+        />
+
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+
+
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+
+
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date of Birth"
+        android:layout_marginTop="10dp"
+        android:inputType="date"
+
+
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+
+
+        />
+
+
+    <Button
+
+        android:id="@+id/signup_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="SIGNUP"
+        android:backgroundTint="#db402c"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
